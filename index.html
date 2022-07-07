@@ -311,6 +311,10 @@
         $(".dropdown-btn").click(function () {
             $(".mobile-dropdown").toggleClass("dropdown-show");
         })
+        $(".mobile-dropdown ul li a").click(function () {
+            $(".mobile-dropdown").removeClass("dropdown-show");
+            console.log('work')
+        })
 
         function smoothScroll(event) {
             var scrollTo = event.getAttribute('scrollTo')
@@ -319,12 +323,6 @@
             }, 50);
         }
 
-        // function scrollTop() {
-        //     // var scrollTo = event.getAttribute('scrollTo')
-        //     $('html, body').animate({
-        //         scrollTop: 0
-        //     }, 50);
-        // }
 
         $("#scrollTop").click(function () {
             $('html, body').animate({

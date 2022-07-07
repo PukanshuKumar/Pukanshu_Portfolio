@@ -289,7 +289,7 @@ figure.service-thumb {
     /* height: 13rem; */
     height: 0;
     overflow: hidden;
-    transition: all ease 0.5s;
+    transition: all ease 0.2s;
     /* display: none; */
     padding: 0;
 }
