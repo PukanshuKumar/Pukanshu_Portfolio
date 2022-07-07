@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#homeSection{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    object-fit: cover;
+    position: relative;
+}
+
+.img-fluid{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overlay-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+
+.overlay-text>h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.overlay-text>h2>.uName{
+    color: #fd62aa;
+}
+
+nav{
+    padding: 0.5rem 4rem;
+    background-color: #0c1728;
+}
+
+nav>div>ul{
+    margin: 1rem 0;
+    list-style-type: none;
+    display: flex;
+}
+
+nav>div>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1rem;
+    padding: 1rem 1rem;
+}
+
+nav>div>ul>li>a:hover{
+    color: #fd62aa;
+}
+
+nav>div>ul>li>a.active{
+    color: #fd62aa;
+}
+
+.heading {
+    text-align: center;
+    position: relative;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+span.line {
+    width: 50px;
+    position: absolute;
+    height: 3px;
+    bottom: 0px;
+    background: #0c1728;
+    margin-bottom: -0.5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.outline-btn{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    border: 1px solid white;
+    padding: 1rem 2rem;
+    position: relative;
+    display: inline-block;
+    margin-top: 2rem;
+    transition: all ease 0.3s;
+}
+
+.outline-btn:hover{
+    border-color: #fd62aa;
+    background-color: #fd62aa;
+}
+
+
+#about > .container > .row {
+    display: flex;
+    margin-top: 4rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#about > .container > .row >.col {
+    text-align: center;
+    padding: 1rem;
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+#about > .container > .row >.col >h4 {
+    font-size: 1.5rem;
+    color: rgb(84, 84, 84);
+    margin-bottom: 1rem;
+}
+
+#about > .container > .row >.col >p.text-muted {
+    color: #a6a2a2;
+}
