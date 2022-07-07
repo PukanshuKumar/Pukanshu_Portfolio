@@ -76,7 +76,7 @@ nav>div>ul>li>a.active{
 
 .outline-btn{
     text-decoration: none;
-    color: #fff;
+    color: #fff !important;
     font-size: 1rem;
     border: 1px solid white;
     padding: 1rem 2rem;
