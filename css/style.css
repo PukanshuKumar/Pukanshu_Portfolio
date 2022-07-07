@@ -263,6 +263,7 @@ figure.service-thumb {
     .filters ul {
         overflow-x: auto;
         justify-content: flex-start;
+        margin: 0;
     }    
     .filters ul li {
         padding-left: 1rem;
