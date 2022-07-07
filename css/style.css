@@ -278,6 +278,9 @@ figure.service-thumb {
         height: 100%;
         width: 90px;
     }
+    .filters-content {
+        margin-top: 0.5rem;
+    }
 }
 
 .mobile-dropdown {
